@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+<h1>REGISTRATION FORM</h1>
+<form>
+    <label>First Name:<input type="text" name="firstname" palceholder="firstname"required></label>
+    <label>Last Name:<input type="text" name="lastname" palceholder="lastname"required></label><br>
+
+    <label>Male:<input type="radio" name="gender" value="male"></label>
+             <label>Female:<input type="radio" name="gender" value="female"></label>
+    <label>other:<input type="radio" name="gender" value="other"></label><br>
+
+             <label>Email:<input type="email" name="email" palceholder="your email"required></label>
+
+    <label>password:<input type="password" name="password" palceholder="your password"pattern="{5,10}"required title="please enter password of length 5 to 10"></label><br>
+
+    <label for="">Birthday: </label>
+    <select id="birthday" name="Month">
+<option>Month</option>
+<option>JANUARY</option>
+<option>FEBRUARY</option>
+  <option>MARCH</option>
+<option>APRIL</option>
+<option>MAY</option>
+    </select>
+    <select id="birthday" name="DAY">
+                 <option>DAY</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+    </SELECT>
+    <select id="birthday" name="YEAR">
+        <option>YEAR</option>
+<option>1998</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+   </select><br>
+
+   <label>I agree to the terms and condions
+<input type"checkbox" name="check">
+   </label><br>
+
+   <input type"submit" name="submit">
+</form>
+</body>
+</html>
